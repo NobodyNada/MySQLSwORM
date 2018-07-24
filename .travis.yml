@@ -8,7 +8,7 @@ matrix:
       
     - os: osx
       osx_image: xcode9.3
-      install: brew install openssl
+      install: brew install libressl
       
 env: SWIFT_VERSION=4.1
 install: eval "$(curl -sL https://swiftenv.fuller.li/install.sh)"
